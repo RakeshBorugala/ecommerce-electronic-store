@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AddProduct.html</title>
+<style>
+  body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+   
+  }
+  .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color:  rgba(190,200,200,0.5);
+  }
+  form ,input{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  padding: 10px;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 6px; 
+  }
+  button{
+   width: 88%;
+   padding: 16px;
+   color: black;
+   background-color:rgb(255,216,20);
+   border: none;
+   font-size: 25px;
+   border-radius: 25px;
+   cursor: pointer;
+  }
+  button:hover{
+   opacity: 0.7;
+   transition: 1s;
+  }
+</style>
+</head>
+<body>
+   <div class="container">
+   <form action="aps" method="post">
+   ProductCode:<input type="text" name="pcode"><br><br>
+   ProductName:<input type="text" name="pname"><br><br>
+   ProductCompany:<input type="text" name="pcomp"><br><br>
+   Price:<input type="text" name="price"><br><br>
+   Product Quantity:<input type="text" name="pqty"><br><br>
+   <button>Add Product</button>
+   </form>   
+   </div>
+</body>
+</html>

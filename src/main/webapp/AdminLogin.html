@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AdminLogin.html</title>
+<style>
+	
+	body{
+	display: flex;
+	 justify-content: center;
+	  align-items:center;
+	  padding-top: 30px;
+	}
+	.container{
+	 display: flex;	 
+	 justify-content: center;
+	 align-items:center;
+	 width:90%;
+	 max-width: 300px;
+	 height:220px;
+	 background-color:#a1caf1;	
+	 padding:20px;
+	 margin:10px;
+	 border-radius: 10px;
+	 font-size: 18px;
+	 font-weight:bold;
+	 border: solid black 2px;
+	}
+	form{
+	display:flex;
+	flex-direction: column; 
+	text-transform: uppercase;
+	margin: 10px;
+	width: 90%;
+	
+	}
+	button{
+	padding: 10px;
+	border-radius: 5px;
+	width: 50%;
+	align-self:center;
+	background-color:rgb(100,200,77);
+	color:#fff;
+	font-size: 20px;
+	}
+	button:hover{
+	 background-color:green;
+	 color:#fff;
+	}
+	 form input{
+	 height: 30px;
+	 border-radius: 5px;
+	}
+</style>
+</head>
+<body>
+	<div class=container>
+	<form action="als" method="post">
+	UserName :<input type="text" name="uname"><br><br>
+	Password :<input type="password" name="upwd"><br><br>
+	<button>LOGIN</button>	
+	</form>
+	</div>
+</body>
+</html>

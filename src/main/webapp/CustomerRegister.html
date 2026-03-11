@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CustomerRegister.html</title>
+<style>
+  body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+   
+  }
+  .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color:  rgba(190,200,200,0.5);
+  }
+  form ,input{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  padding: 10px;
+  width: 80%;
+  font-size: 20px;
+  font-weight:bold;
+  border-radius: 6px; 
+
+  }
+  button{
+   width: 88%;
+   padding: 16px;
+   color: black;
+   background-color: skyblue;
+   border: none;
+   font-size: 25px;
+   border-radius: 25px;
+   cursor: pointer;
+  }
+  button:hover{
+   opacity: 0.7;
+   border: 2px solid black;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<form action="crs" method="post">
+	<h2 style="text-decoration: underline;">Customer Registration</h2>
+	UserName<input type="text" name="uname"><br>
+	Password<input type="password" name="upwd"><br>
+	FirstName<input type="text" name="fname"><br>
+	LastName<input type="text" name="lname"><br>
+	Address<input type="text" name="uadd"><br>
+	Mail_id<input type="text" name="umail"><br>
+	Mobile<input type="text" name="umob"><br>
+	<button>Register</button>
+  </form>
+
+</div>
+  
+</body>
+</html>

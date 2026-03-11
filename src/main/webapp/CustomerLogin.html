@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CustomerLogin.html</title>
+<style>
+	body{
+	display: flex;
+	 justify-content: center;
+	  align-items:center;
+	  padding-top: 30px;
+	}
+	.container{
+	 display: flex;	 
+	 justify-content: center;
+	 align-items:center;
+	 width:90%;
+	 font-size:20px;
+	 max-width: 300px;
+	 height:340px;
+	 background-color:#a1caf1;	
+	 padding:16px;
+	 padding-top:20px;
+	 border-radius: 10px;
+	 font-size: bold;
+	 border: solid black 2px;
+	}
+	form{
+	display:flex;
+	flex-direction: column; 
+	text-transform: uppercase;
+	margin: 10px;
+	width: 90%;
+	
+	}
+	button{
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	align-self:center;
+	background-color:rgb(100,200,77);
+	color:#fff;
+	font-size: 20px;
+	 border: 1px solid black;
+	}
+	button:hover{
+	 background-color:green;
+	 color:#fff;
+	}
+	 form input{
+	 height: 30px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+	 font-size: 15px;
+	}
+	#new_user{
+	display:flex;
+	justify-content:center;
+	text-transform: capitalize;
+	align-items: center;
+	margin-top: 5px;
+	text-decoration: none;
+	color: black;
+	}
+	#new_user:hover{
+  	color: blue;
+  	text-decoration:underline;
+ 	}
+ 	h2{
+ 	margin-top: 0px;
+ 	padding-top: 0px;
+ 	display:flex;
+ 	justify-content: center;
+ 	}
+</style>
+</head>
+<body>
+	<div class="container">
+	<form action="cls" method="post">
+	<h2>Login</h2>
+ UserName<input type="text" name="uname"><br><br>
+ Password<input type="password" name="upwd"><br><br>
+ 
+ <button>Login</button>
+ <a href="CustomerRegister.html" id="new_user">New Customer? Register here</a>
+</form>
+	</div>
+
+
+</body>
+</html>
